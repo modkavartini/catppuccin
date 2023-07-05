@@ -1,5 +1,5 @@
 version=1.0
 
-release notes:
-> cool skin
-> idk
+what's new:
+> integrated updates
+> minor optimisations
