@@ -9,7 +9,7 @@
 </p>
 
 ## preview
-![desktop](https://github.com/modkavartini/catppuccin/assets/81793953/13bb6ecb-5a01-4a14-88bb-92d158a4f0ff)
+![desktop](https://github.com/modkavartini/catppuccin/assets/81793953/7641805a-9b57-48c5-9acd-11d4ac834b80)
 
 #
 https://github.com/modkavartini/catppuccin/assets/81793953/b5975db3-9211-42c3-a5a6-3a8249d17785
