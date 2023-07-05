@@ -15,6 +15,11 @@
 https://github.com/modkavartini/catppuccin/assets/81793953/b5975db3-9211-42c3-a5a6-3a8249d17785
 
 ### installation
+#### using powershell
+```ps1
+iwr -useb "https://raw.githubusercontent.com/modkavartini/catppuccin/main/installer.ps1" | iex
+```
+#### from releases
 * download and run the latest `.rmskin` from [releases](https://github.com/modkavartini/catppuccin/releases)
 
   ##### more to be added soon.
