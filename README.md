@@ -16,6 +16,8 @@ https://github.com/modkavartini/catppuccin/assets/81793953/b5975db3-9211-42c3-a5
 
 ### installation
 #### using powershell
+* press `Win+X` followed by `I` to open powershell
+* paste the following code and press enter
 ```ps1
 iwr -useb "https://raw.githubusercontent.com/modkavartini/catppuccin/main/installer.ps1" | iex
 ```
