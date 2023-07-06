@@ -9,7 +9,7 @@ $outPath="C:/Windows/Temp/$skinName"+"_$latestVer.rmskin"
     $wc=New-Object System.Net.WebClient
     $wc.DownloadFile($url, $outPath)
     $shell = New-Object -ComObject Shell.Application
-    #$shell.minimizeall()
+    $shell.minimizeall()
     Start-Process $outPath
 
     if($null -ne (Get-Process "SkinInstaller" -ea SilentlyContinue)) {
