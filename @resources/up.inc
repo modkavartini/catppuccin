@@ -8,6 +8,7 @@ regexp=(?siU)version=(.*)\n(.*)$
 stringindex=1
 substitute="":"?"
 updaterate=3000
+finishaction=[!enablemeasure hasUpR]
 
 [hasUpR]
 measure=string
@@ -20,3 +21,4 @@ dynamicvariables=1
 measure=calc
 formula=[&hasUpR]
 dynamicvariables=1
+disabled=1
