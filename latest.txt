@@ -1,6 +1,7 @@
-version=1.1.5
+version=1.1.6
 
 what's new:
 > added integrated updates
 > minor optimisations
 > a few bug smashes
+> i forgor to add a pipeline ;-;
