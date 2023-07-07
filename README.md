@@ -8,6 +8,10 @@
   <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/palette/macchiato.png" alt="catppuccin palette" width="400" />
 </p>
 
+<h3 align="center">
+	a set of skins made using the catppuccin color scheme
+</h3>
+
 ## preview
 ![desktop](https://github.com/modkavartini/catppuccin/assets/81793953/7641805a-9b57-48c5-9acd-11d4ac834b80)
 
