@@ -4,3 +4,4 @@ what's new:
 > i forgor to put a pipeline in bar.ini at 340:25 smh
 > fixed: opening child windows fucking up the icons
 > made updater related things work better
+> battery info now turns red when less than 30%
