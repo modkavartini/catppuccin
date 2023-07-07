@@ -1,7 +1,6 @@
-version=1.1.6
+version=1.1.7
 
 what's new:
-> added integrated updates
-> minor optimisations
-> a few bug smashes
-> i forgor to add a pipeline ;-;
+> i forgor to put a pipeline in bar.ini at 340:25 smh
+> fixed: opening child windows fucking up the icons
+> made updater related things work better
