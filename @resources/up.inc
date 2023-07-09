@@ -1,5 +1,8 @@
+;do not for the love of god change anything in here.
+;thank you.
+
 [variables]
-currentVer=1.1.5
+currentVer=1.1.7
 
 [latestVer]
 measure=webparser
@@ -10,14 +13,21 @@ substitute="":"#currentVer#"
 updaterate=3000
 dynamicvariables=1
 
-[hasUpR]
+[cVerNum]
+measure=string
+string=#currentVer#
+regexpsubstitute=1
+substitute="\.":""
+dynamicvariables=1
+
+[lVerNum]
 measure=string
 string=[&latestVer]
 regexpsubstitute=1
-substitute="^((?!#currentVer#).)*$":"1","^#currentVer#$":"0"
+substitute="\.":""
 dynamicvariables=1
 
 [hasUp]
 measure=calc
-formula=[&hasUpR]
+formula=[&lVerNum]>[&cVerNum]?1:0
 dynamicvariables=1
