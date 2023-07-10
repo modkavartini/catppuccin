@@ -40,3 +40,5 @@ color13=[#c13[#flavor]]
 
 stkW=0
 stkColor=#sColor#
+
+iconHide=1
