@@ -41,4 +41,7 @@ color13=[#c13[#flavor]]
 stkW=0
 stkColor=#sColor#
 
+td=0
+vis=1
+wifiName=0
 iconHide=1
