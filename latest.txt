@@ -1,7 +1,10 @@
-version=1.2.0
+version=1.2.1
 
 what's new:
+v1.2.0:
 > added the ability to choose between different flavors and accent colors
 > added a settings skin to seamlessly configure options
 > added a media flyout for child.ini
 > minor optimisations and bug fixes (i can't remember what i did)
+v1.2.1:
+> more fixes thanks to @keifufu
