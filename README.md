@@ -13,10 +13,12 @@
 </h3>
 
 ## preview
-![desktop](https://github.com/modkavartini/catppuccin/assets/81793953/7641805a-9b57-48c5-9acd-11d4ac834b80)
-
-#
-https://github.com/modkavartini/catppuccin/assets/81793953/b5975db3-9211-42c3-a5a6-3a8249d17785
+![1](https://i.imgur.com/1tFK1eV.png)
+![2](https://i.imgur.com/urNCOq8.png)
+![3](https://i.imgur.com/vJ4bnS0.png)
+![4](https://i.imgur.com/XDKrLqD.png)
+![5](https://i.imgur.com/jPuo8ZW.png)
+![full](https://i.imgur.com/B3aFIfB.jpeg)
 
 ### installation
 #### using [MonD](https://github.com/meters-on-demand/cli)
