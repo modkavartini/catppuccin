@@ -10,7 +10,7 @@ bands=16
 freqmin=20
 freqmax=16500
 sensitivity=35
-disabled=(1-#vis#)
+disabled=(1-#visDisp#)
 
 [bs0]
 measure=calc

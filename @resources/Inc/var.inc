@@ -1,7 +1,7 @@
 [variables]
 @include=#@#Inc\flavors.inc
 
-accent=6
+accent=4
 ;0-13
 ;rosewater, flamingo, pink, mauve, red, maroon, peach, yellow, green, teal, sky, sapphire, blue, lavender
 
@@ -42,6 +42,13 @@ stkW=0
 stkColor=#sColor#
 
 td=0
-vis=1
 wifiName=0
 iconHide=1
+
+visDisp=1
+wifiDisp=1
+brightDisp=1
+volumeDisp=1
+batteryDisp=1
+cpuDisp=1
+ramDisp=1

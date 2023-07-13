@@ -2,8 +2,7 @@
 ;thank you.
 
 [variables]
-currentVer=1.1.7
-check=1
+currentVer=1.2.0
 
 [latestVer]
 measure=webparser
@@ -13,7 +12,6 @@ stringindex=1
 substitute="":"#currentVer#"
 updaterate=3000
 dynamicvariables=1
-disabled=(#check#-1)
 
 [cVerNum]
 measure=string
