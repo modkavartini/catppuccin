@@ -26,4 +26,15 @@ mond install modkavartini/catppuccin
 #### from releases
 * download and run the latest `.rmskin` from [releases](https://github.com/modkavartini/catppuccin/releases)
 
-  ##### more to be added soon.
+### credits
+[the catppuccin theme](https://github.com/catppuccin/catppuccin)
+#### plugins
+* [backlight](https://forum.rainmeter.net/viewtopic.php?t=19221) by [cfixd](https://github.com/cfixd)
+* [configactive](https://forum.rainmeter.net/viewtopic.php?t=28720) by [jsmorley](https://github.com/jsmorley)
+* [focus](https://forum.rainmeter.net/viewtopic.php?t=37989) by [deathcrafter](https://github.com/deathcrafter)
+* [getactivetitle](https://forum.rainmeter.net/viewtopic.php?t=33146) by [jsmorley](https://github.com/jsmorley)
+* [isfullscreen](https://forum.rainmeter.net/viewtopic.php?t=28305) by [jsmorley](https://github.com/jsmorley)
+* [powershellrm](https://forum.rainmeter.net/viewtopic.php?t=29095) by [khanhas](https://github.com/khanhas)
+* [programoptions](https://forum.rainmeter.net/viewtopic.php?t=22868) by [TheAzack9](https://github.com/TheAzack9)
+* [webnowplaying](https://github.com/keifufu/WebNowPlaying-Redux) by [keifufu](https://github.com/keifufu) & [tjhrulz](https://github.com/tjhrulz)
+
