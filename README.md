@@ -1,4 +1,4 @@
-<h3 align="center">
+![image](https://github.com/modkavartini/catppuccin/assets/81793953/d2876efe-51dc-4db5-8ea4-2a9a29f3d26d)<h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 	catppuccin for rainmeter
@@ -15,9 +15,12 @@
 ## preview
 ![1](https://i.imgur.com/1tFK1eV.png)
 ![2](https://i.imgur.com/urNCOq8.png)
-![3](https://i.imgur.com/vJ4bnS0.png)
-![4](https://i.imgur.com/XDKrLqD.png)
-![5](https://i.imgur.com/jPuo8ZW.png)
+![3](https://i.imgur.com/A1yHRf6.png)
+![4](https://i.imgur.com/jh5HAsk.png)
+![5](https://i.imgur.com/QWwqPth.png)
+![6](https://i.imgur.com/XDKrLqD.png)
+![7](https://i.imgur.com/jPuo8ZW.png)
+![8](https://i.imgur.com/bKf6PQf.png)
 ![full](https://i.imgur.com/B3aFIfB.jpeg)
 
 ### installation
