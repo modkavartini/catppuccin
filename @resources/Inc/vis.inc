@@ -9,7 +9,7 @@ fftdecay=50
 bands=16
 freqmin=20
 freqmax=16500
-sensitivity=35
+sensitivity=#sensitivity#
 disabled=(1-#visDisp#)
 
 [bs0]

@@ -1,7 +1,7 @@
 [MonD]
 SkinName=catppuccin
 Author=modkavartini
-Version=1.2.0
+Version=1.2.1
 HeaderImage=#@#\bar.bmp
 VariableFiles=#@#\var.inc
 LoadType=Skin

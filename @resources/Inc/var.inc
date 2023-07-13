@@ -17,6 +17,37 @@ bCorner=15
 maxAppCount=10
 ;can only be reduced
 
+;bar variables
+
+updateRate=2
+incDecVal=5
+
+iconSize=(#bTextSize#+2)
+xPadding=20
+edgePadding=#xPadding#
+yPadding=#xPadding#
+bWidth=(#workAreaWidth#-(#xPadding#*2))
+bHeight=60
+infoGap=27
+iconGap=7
+
+sensitivity=35
+;increase this by very law
+barWidth=8
+maxBarHeight=(#bHeight#-40)
+minHeight=0
+barYPadding=#maxBarHeight#
+gap=(#barWidth#+1)
+avgSize=5
+
+nextAnim=0
+
+appGap=15
+menuSpawnGap=#yPadding#
+childSpawnGap=(#yPadding#/2)
+
+;do not change->
+
 bgColor=[#bg[#flavor]D]
 bgColorL=[#bg[#flavor]L]
 mColor=[#m[#flavor]]
@@ -41,6 +72,7 @@ color13=[#c13[#flavor]]
 stkW=0
 stkColor=#sColor#
 
+tFormat=0
 td=0
 wifiName=0
 iconHide=1
