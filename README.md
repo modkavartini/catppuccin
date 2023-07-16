@@ -1,4 +1,4 @@
-![image](https://github.com/modkavartini/catppuccin/assets/81793953/d2876efe-51dc-4db5-8ea4-2a9a29f3d26d)<h3 align="center">
+<h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 	catppuccin for rainmeter
