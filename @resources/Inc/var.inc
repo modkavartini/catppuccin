@@ -1,7 +1,7 @@
 [variables]
-@include=#@#Inc\flavors.inc
+@include=#@#inc\flavors.inc
 
-accent=4
+accent=6
 ;0-13
 ;rosewater, flamingo, pink, mauve, red, maroon, peach, yellow, green, teal, sky, sapphire, blue, lavender
 
@@ -17,28 +17,28 @@ bCorner=15
 maxAppCount=10
 ;can only be reduced
 
-;bar variables
-
 updateRate=2
 incDecVal=5
 
 iconSize=(#bTextSize#+2)
 xPadding=20
-edgePadding=#xPadding#
+edgePadding=20
 yPadding=#xPadding#
 bWidth=(#workAreaWidth#-(#xPadding#*2))
 bHeight=60
-infoGap=27
+infoGap=26
 iconGap=7
 
 sensitivity=35
-;increase this by very law
+;the sensitivity of the visualiser
 barWidth=8
-maxBarHeight=(#bHeight#-40)
+maxBarHeight=20
+;if you add -ve to this value, the vis will be inverted :)
 minHeight=0
 barYPadding=#maxBarHeight#
 gap=(#barWidth#+1)
 avgSize=5
+div=3
 
 nextAnim=0
 
@@ -79,8 +79,12 @@ iconHide=1
 
 visDisp=1
 wifiDisp=1
-brightDisp=1
+brightDisp=0
 volumeDisp=1
 batteryDisp=1
 cpuDisp=1
 ramDisp=1
+
+nullmTitle=in my h3ad
+nullmArtist=the voices
+tAS=:
