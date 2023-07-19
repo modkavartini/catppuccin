@@ -15,9 +15,8 @@ pluggedIcon=ED90
 ;EB8A
 brightIcon=EED0
 wifiIcon=EF8E
-downIcon=EC1B
-upIcon=EC1C
-;like/unlike icons
+likedIcon=EC1B
+unlikedIcon=EC1C
 
 appIcon=EDBC
 ;EDC4

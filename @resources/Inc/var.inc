@@ -14,20 +14,21 @@ bTextSize=12
 fontW=500
 iconW=400
 bCorner=15
+stkW=0
 maxAppCount=10
 ;can only be reduced
 
 updateRate=2
 incDecVal=5
 
-iconSize=(#bTextSize#+2)
+iconSize=14
 xPadding=20
 edgePadding=20
-yPadding=#xPadding#
+yPadding=20
 bWidth=(#workAreaWidth#-(#xPadding#*2))
 bHeight=60
 infoGap=26
-iconGap=7
+iconGap=(#infoGap#-19)
 
 sensitivity=35
 ;the sensitivity of the visualiser
@@ -36,7 +37,7 @@ maxBarHeight=20
 ;if you add -ve to this value, the vis will be inverted :)
 minHeight=0
 barYPadding=#maxBarHeight#
-gap=(#barWidth#+1)
+gap=1
 avgSize=5
 div=3
 
@@ -69,7 +70,6 @@ color11=[#c11[#flavor]]
 color12=[#c12[#flavor]]
 color13=[#c13[#flavor]]
 
-stkW=0
 stkColor=#sColor#
 
 tFormat=0
@@ -90,10 +90,6 @@ nullmArtist=the voices
 tAS=:\s 
 
 25.12=merry christmas!
-19.7=an amazing day!
-23.7=
 1.1=happy new year!
 31.12=new year's eve
-20.7=
-30.6=
-30.7=yo
+20.7=click a date to add an event!
