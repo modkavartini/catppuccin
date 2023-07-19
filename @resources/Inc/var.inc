@@ -87,10 +87,13 @@ ramDisp=1
 
 nullmTitle=in my h3ad
 nullmArtist=the voices
-tAS=:
+tAS=:\s 
 
 25.12=merry christmas!
 19.7=an amazing day!
 23.7=
 1.1=happy new year!
 31.12=new year's eve
+20.7=
+30.6=
+30.7=yo
