@@ -1,7 +1,7 @@
 [variables]
 @include=#@#inc\flavors.inc
 
-accent=7
+accent=6
 ;0-13
 ;rosewater, flamingo, pink, mauve, red, maroon, peach, yellow, green, teal, sky, sapphire, blue, lavender
 
@@ -78,7 +78,7 @@ direction=0
 tFormat=0
 td=0
 wifiName=0
-iconHide=1
+iconHide=0
 titleS=1
 
 visDisp=1
@@ -96,5 +96,5 @@ tAS=:\s
 25.12=merry christmas!
 1.1=happy new year!
 31.12=new year's eve
-20.7=
+20.7=class at 11:00
 21.7=click a date to add an event!
