@@ -15,8 +15,9 @@ fontW=500
 iconW=400
 bCorner=15
 stkW=0
+
 maxAppCount=10
-;can only be reduced
+;do not change
 
 updateRate=2
 incDecVal=5
@@ -27,8 +28,10 @@ edgePadding=20
 yPadding=20
 bWidth=(#workAreaWidth#-(#xPadding#*2))
 bHeight=60
+
 infoGap=26
 iconGap=(#infoGap#-19)
+spaces=\s
 
 sensitivity=35
 ;the sensitivity of the visualiser
@@ -37,17 +40,16 @@ maxBarHeight=20
 ;if you add -ve to this value, the vis will be inverted :)
 minHeight=0
 barYPadding=#maxBarHeight#
-gap=1
+bGap=1
 avgSize=5
 div=3
 
-nextAnim=0
-
 appGap=15
-menuSpawnGap=#yPadding#
-childSpawnGap=(#yPadding#/2)
+popupGap=10
+childGap=10
 
 ;do not change->
+barY=0
 
 bgColor=[#bg[#flavor]D]
 bgColorL=[#bg[#flavor]L]
@@ -72,10 +74,12 @@ color13=[#c13[#flavor]]
 
 stkColor=#sColor#
 
+direction=0
 tFormat=0
 td=0
 wifiName=0
 iconHide=1
+titleS=1
 
 visDisp=1
 wifiDisp=1
@@ -85,11 +89,12 @@ batteryDisp=1
 cpuDisp=1
 ramDisp=1
 
-nullmTitle=in my h3ad
+nullmTitle0=in my h3ad
 nullmArtist=the voices
-tAS=:\s 
+tAS=:\s
 
 25.12=merry christmas!
 1.1=happy new year!
 31.12=new year's eve
-20.7=click a date to add an event!
+20.7=
+21.7=click a date to add an event!

@@ -13,6 +13,9 @@ batteryIcon=E992
 criticalIcon=E91A
 pluggedIcon=ED90
 ;EB8A
+vMutedIcon=EF71
+vB50Icon=EF6F
+vA50Icon=EF73
 brightIcon=EED0
 wifiIcon=EF8E
 likedIcon=EC1B
