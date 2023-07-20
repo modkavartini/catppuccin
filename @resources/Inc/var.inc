@@ -1,7 +1,7 @@
 [variables]
 @include=#@#inc\flavors.inc
 
-accent=6
+accent=7
 ;0-13
 ;rosewater, flamingo, pink, mauve, red, maroon, peach, yellow, green, teal, sky, sapphire, blue, lavender
 
