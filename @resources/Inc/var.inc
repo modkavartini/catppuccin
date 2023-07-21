@@ -20,7 +20,8 @@ maxAppCount=10
 ;do not change
 
 updateRate=2
-incDecVal=5
+sysIncDecVal=5
+appIncDecVal=2
 
 iconSize=14
 xPadding=20
@@ -80,6 +81,7 @@ td=0
 wifiName=0
 iconHide=0
 titleS=1
+tPopup=1
 
 visDisp=1
 wifiDisp=1
@@ -96,5 +98,5 @@ tAS=:\s
 25.12=merry christmas!
 1.1=happy new year!
 31.12=new year's eve
-20.7=class at 11:00
+20.7=
 21.7=click a date to add an event!
