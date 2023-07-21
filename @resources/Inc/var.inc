@@ -1,3 +1,7 @@
+;manual editing of these values is not advised.
+;use the included settings skin for customisation.
+;if you still wish to proceed, do so with caution.
+
 [variables]
 @include=#@#inc\flavors.inc
 
@@ -29,6 +33,9 @@ edgePadding=20
 yPadding=20
 bWidth=(#workAreaWidth#-(#xPadding#*2))
 bHeight=60
+reservedSpace=100
+reservedAt=TOP
+;dynamic var
 
 infoGap=26
 iconGap=(#infoGap#-19)
@@ -75,6 +82,7 @@ color13=[#c13[#flavor]]
 
 stkColor=#sColor#
 
+rSpace=0
 direction=0
 tFormat=0
 td=0
