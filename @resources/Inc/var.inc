@@ -10,8 +10,8 @@ accent=6
 ;rosewater, flamingo, pink, mauve, red, maroon, peach, yellow, green, teal, sky, sapphire, blue, lavender
 
 flavor=3
-;0-3
-;latte, frappe, macchiato, mocha
+;0-4
+;latte, frappe, macchiato, mocha, custom
 
 font=JetBrains Mono
 bTextSize=12
@@ -33,7 +33,7 @@ edgePadding=20
 yPadding=20
 bWidth=(#workAreaWidth#-(#xPadding#*2))
 bHeight=60
-reservedSpace=40
+reservedSpace=63
 
 ;dynamic vars
 reservedAt=TOP
@@ -110,3 +110,5 @@ tAS=:\s
 20.7=
 21.7=
 22.7=click a date to add an event!
+10.7=
+27.7=
