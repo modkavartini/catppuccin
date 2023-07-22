@@ -35,6 +35,7 @@ mond install modkavartini/catppuccin
 ### credits
 [the catppuccin theme](https://github.com/catppuccin/catppuccin)
 #### plugins
+* [appbar](https://github.com/deathcrafter/PluginAppBar) by [deathcrafter](https://github.com/deathcrafter)
 * [backlight](https://forum.rainmeter.net/viewtopic.php?t=19221) by [cfixd](https://github.com/cfixd)
 * [configactive](https://forum.rainmeter.net/viewtopic.php?t=28720) by [jsmorley](https://github.com/jsmorley)
 * [focus](https://forum.rainmeter.net/viewtopic.php?t=37989) by [deathcrafter](https://github.com/deathcrafter)
