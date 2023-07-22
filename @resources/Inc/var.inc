@@ -87,7 +87,7 @@ direction=0
 tFormat=0
 td=0
 wifiName=0
-iconHide=0
+iconHide=1
 titleS=1
 tPopup=1
 
@@ -107,4 +107,5 @@ tAS=:\s
 1.1=happy new year!
 31.12=new year's eve
 20.7=
-21.7=click a date to add an event!
+21.7=
+22.7=click a date to add an event!
