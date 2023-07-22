@@ -33,9 +33,11 @@ edgePadding=20
 yPadding=20
 bWidth=(#workAreaWidth#-(#xPadding#*2))
 bHeight=60
-reservedSpace=100
+reservedSpace=40
+
+;dynamic vars
 reservedAt=TOP
-;dynamic var
+direction=0
 
 infoGap=26
 iconGap=(#infoGap#-19)
@@ -83,7 +85,6 @@ color13=[#c13[#flavor]]
 stkColor=#sColor#
 
 rSpace=0
-direction=0
 tFormat=0
 td=0
 wifiName=0
