@@ -1,9 +1,9 @@
-version=1.2.2
+version=1.2.3
 
 what's new:
-v1.2.2:
-> added calendar flyout with the ability to set and display events
-> added more configurable settings
-> bar is now compatible with both top and bottom placement
-> added monitor-off button to the power menu
-> minor bug fixes as always
+v1.2.3:
+> included appbar plugin to facilitate the usage of the bar as a "taskbar replacement" by reserving space for the bar on the screen.
+> added a toggle for the taskbar popup.
+> added an option for a customisable color scheme (dracula by default) due to public request. (one person)
+> enhanced media popup.
+> fixed dimensions related bugs.
