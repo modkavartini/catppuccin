@@ -35,7 +35,7 @@ bWidth=(#workAreaWidth#-(#xPadding#*2))
 bHeight=60
 reservedSpace=59
 
-;dynamic vars
+;dynamic vars, do not change
 reservedAt=TOP
 direction=0
 
@@ -44,7 +44,6 @@ iconGap=(#infoGap#-19)
 spaces=\s
 
 sensitivity=35
-;the sensitivity of the visualiser
 barWidth=8
 maxBarHeight=20
 ;if you add -ve to this value, the vis will be inverted :)
@@ -100,6 +99,7 @@ batteryDisp=1
 cpuDisp=1
 ramDisp=1
 
+player=spotify|youtube|soundcloud
 nullmTitle0=in my h3ad
 nullmArtist=the voices
 tAS=:\s
@@ -107,8 +107,3 @@ tAS=:\s
 25.12=merry christmas!
 1.1=happy new year!
 31.12=new year's eve
-20.7=
-21.7=
-22.7=
-10.7=
-27.7=
