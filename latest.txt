@@ -6,4 +6,4 @@ v1.2.3:
 > added a toggle for the taskbar popup.
 > added an option for a customisable color scheme (dracula by default) due to public request. (one person)
 > enhanced media popup.
-> fixed dimensions related bugs.
+> fixed dimensions related bugs. 💖
