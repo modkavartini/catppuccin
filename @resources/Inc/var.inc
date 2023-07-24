@@ -33,7 +33,7 @@ edgePadding=20
 yPadding=20
 bWidth=(#workAreaWidth#-(#xPadding#*2))
 bHeight=60
-reservedSpace=63
+reservedSpace=59
 
 ;dynamic vars
 reservedAt=TOP
@@ -109,6 +109,6 @@ tAS=:\s
 31.12=new year's eve
 20.7=
 21.7=
-22.7=click a date to add an event!
+22.7=
 10.7=
 27.7=

@@ -35,11 +35,14 @@ CodeIcon=EB66
 ;EB46
 chromeIcon=EA3B
 firefoxIcon=EB83
+msedgeIcon=EAE6
 discordIcon=EAC0
 spotifyIcon=EABF
+notepadIcon=EF0C
 ;EEAA
 explorerIcon=EB96
 powershellIcon=EEF3
+WindowsTerminalIcon=#powershellIcon#
 rainmeterIcon=EAE0
 GithubDesktopIcon=EBE7
 
