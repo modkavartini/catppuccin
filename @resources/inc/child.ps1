@@ -13,9 +13,12 @@ function setWindowName { # Sets the subprocess names.
                 $RmAPI.Bang("!setVariable wName0$j$i `"`"`"$null`"`"`" ")
                 $RmAPI.Bang("!commandMeasure programOptions SetVariable|wName0$j$i|ChildWindowName|$i|$j")  
                 $wName=$RmAPI.VariableStr("wName0$j$i")
-                if(($programName -match "$player") -or ($wName -match "$title|$artist|$player")) {
+                if(($wName -match "$title|$artist|$player") -or ($programName -match "$player")) {
                     $RmAPI.Bang("!setVariable mediaAt $i")
-                    $RmAPI.Bang("!setVariable mediaAtC $j")
+                    $RmAPI.Bang("!setVariable mediaAtC 0")
+                    if($wName -match "$title|$artist|$player") {
+                        $RmAPI.Bang("!setVariable mediaAtC $j")
+                    }
                 }
                 if(($programName -match "explorer") -and ($wName -match "% complete")) {
                     $RmAPI.Bang("!setVariable progAt $i")
