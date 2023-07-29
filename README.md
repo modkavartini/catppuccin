@@ -32,8 +32,10 @@ mond install modkavartini/catppuccin
 #### from releases
 * download and run the latest `.rmskin` from [releases](https://github.com/modkavartini/catppuccin/releases)
 
+### also, check out the [wiki](https://github.com/modkavartini/catppuccin/wiki)!
+
 ### to-do:
-- [ ] add scale variable
+- [ ] scale variable
 - [ ] finish wiki
 
 ### credits
