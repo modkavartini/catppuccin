@@ -1,9 +1,14 @@
-version=1.2.3
+version=1.3.0
 
 what's new:
-v1.2.3:
-> included appbar plugin to facilitate the usage of the bar as a "taskbar replacement" by reserving space for the bar on the screen.
-> added a toggle for the taskbar popup.
-> added an option for a customisable color scheme (dracula by default) due to public request. (one person)
-> enhanced media popup.
-> fixed dimensions related bugs. 💖
+v1.3.0
+
+> pac-man mode!
+> ability to display pinned apps
+> added options to hide the windows taskbar and replace win key
+> added a toggle for the media info
+> added a toggle for the first day on the calendar
+> added a toggle for left-aligning apps
+> added more configurable variables
+> enlarged the hitbox for the menu button
+> made child window closing work better
