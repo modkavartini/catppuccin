@@ -22,7 +22,7 @@
 ![7](https://i.imgur.com/jPuo8ZW.png)
 ![8](https://i.imgur.com/bKf6PQf.png)
 ![full](https://github.com/modkavartini/catppuccin/assets/81793953/3dfcb896-7795-4de3-bc7c-4a3ee0257d7a)
-
+![fullpac](https://github.com/modkavartini/catppuccin/assets/81793953/50ad07fa-e0b0-47ad-818f-717442b5553d)
 
 ### installation
 #### using [MonD](https://github.com/meters-on-demand/cli)
