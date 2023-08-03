@@ -5,7 +5,7 @@
 [variables]
 @include=#@#inc\flavors.inc
 
-accent=12
+accent=8
 ;0-13
 ;rosewater, flamingo, pink, mauve, red, maroon, peach, yellow, green, teal, sky, sapphire, blue, lavender
 
@@ -15,7 +15,7 @@ flavor=3
 
 font=JetBrains Mono
 bTextSize=12
-fontW=500
+fontW=400
 iconW=400
 bCorner=15
 pCorner=15
@@ -46,14 +46,14 @@ spaces=\s
 
 sensitivity=35
 barWidth=8
-maxBarHeight=20
+maxBarHeight=(#bHeight#/2.75)
 ;if you add -ve to this value, the vis will be inverted :)
 minHeight=0
 barYPadding=#maxBarHeight#
 bGap=1
+div=3
 visSmooth=10
 avgSize=(#visSmooth#/2)
-div=2.5
 
 appGap=15
 popupGap=10
@@ -86,6 +86,8 @@ color13=[#c13[#flavor]]
 stkColor=#sColor#
 noPacEmojiColor=#mColor#,90
 yesPacEmojiColor=#color7#
+runningAlpha=200
+notRunningAlpha=90
 pinAlpha=150
 
 pinnedApps=1
@@ -112,7 +114,7 @@ batteryDisp=1
 cpuDisp=1
 ramDisp=1
 
-pinIgnore=explorer
+pinIgnore=none|none
 player=spotify|youtube
 nullmTitle0=in my h3ad
 nullmArtist=the voices
@@ -121,6 +123,3 @@ tAS=:\s
 25.12=merry christmas!
 1.1=happy new year!
 31.12=new year's eve
-31.7=
-0=0
-1=1
