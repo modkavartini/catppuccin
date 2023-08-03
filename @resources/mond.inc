@@ -1,9 +1,10 @@
 [MonD]
 SkinName=catppuccin
 Author=modkavartini
-Version=1.2.3
+Version=1.2.9
 HeaderImage=#@#\bar.bmp
 VariableFiles=#@#inc\var.inc | #@#inc\flavors.inc
+Exclude=#@#pinned
 LoadType=Skin
 Load=catppuccin\bar\bar.ini
 PreviewImage=https://repository-images.githubusercontent.com/662383027/084771df-98aa-4fd0-8741-29572cb8d571
