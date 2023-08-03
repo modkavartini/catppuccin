@@ -11,7 +11,6 @@ function setWindowName { # Sets the subprocess names.
         $programCount=$RmAPI.Variable("programsCount$i")
         if($programCount -gt 0) {
             for($j=0; $j -lt $programCount; $j++) {
-                $RmAPI.Bang("!setVariable wName0$j$i `"`"`"$null`"`"`" ")
                 $RmAPI.Bang("!commandMeasure programOptions$poI SetVariable|wName0$j$i|ChildWindowName|$i|$j")
                 $RmAPI.Bang("!commandMeasure programOptions$poI SetVariable|handle0$j$i|ChildHandle|$i|$j")
                 $wName=$RmAPI.VariableStr("wName0$j$i")
