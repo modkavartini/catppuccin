@@ -3,7 +3,7 @@ $script:destPath=$RmAPI.VariableStr("@")+ "\pinned"
 function pin {
     clearDest
     $pinnedPath="$env:AppData\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar"
-    $pinIgnore=$RmAPI.VariableStr("pinIgnore")
+    $pinIgnore=$RmAPI.VariableStr("pinIgnore") -replace '^$','thiswillnevermatchanythingoktrustmebro'
     get-ChildItem $pinnedPath -filter *.lnk -r | forEach-Object {
         $itemPath=$_.fullName
         $itemName=$_.baseName
@@ -53,16 +53,12 @@ function killAnyRepeat {
     $killAnyRepeat=$RmAPI.Variable("killAnyRepeat")
     if($killAnyRepeat -eq 0) { break }
     $processCount=$RmAPI.Variable("processCount")
-    $maxAppCount=$RmAPI.Variable("maxAppCount")
-    for($m=0; $m -lt ($maxAppCount-1); $m++) {
-        $RmAPI.Bang("!setVariable programRunning$m 0")
-    }
     for($i=0; $i -lt $processCount; $i++) {
         $iProgramName=$RmAPI.VariableStr("programName$i")
         for($j=($i+1); $j -lt $processCount; $j++) {
             $jProgramName=$RmAPI.VariableStr("programName$j")
-            if($iProgramName -match $jProgramName) {
-                $RmAPI.Bang("!setVariable programRunning$i 1")
+            if(($iProgramName -match $jProgramName)) {
+                $RmAPI.Bang("!hideMeter $i")
             }
         }
     }
