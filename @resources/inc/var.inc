@@ -90,11 +90,11 @@ runningAlpha=200
 notRunningAlpha=90
 pinAlpha=150
 
-pinnedApps=1
-killAnyRepeat=0
+pinnedApps=0
+hideAnyRepeat=1
 centerApps=1
 replaceWin=0
-tBarHide=0
+hideTaskbar=0
 pacMode=1
 rSpace=0
 tFormat=0
