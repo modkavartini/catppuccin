@@ -21,8 +21,8 @@
 ![6](https://i.imgur.com/XDKrLqD.png)
 ![7](https://i.imgur.com/jPuo8ZW.png)
 ![8](https://i.imgur.com/bKf6PQf.png)
+![pac](https://github.com/modkavartini/catppuccin/assets/81793953/50ad07fa-e0b0-47ad-818f-717442b5553d)
 ![full](https://github.com/modkavartini/catppuccin/assets/81793953/3dfcb896-7795-4de3-bc7c-4a3ee0257d7a)
-
 
 ### installation
 #### using [MonD](https://github.com/meters-on-demand/cli)
@@ -46,8 +46,9 @@ mond install modkavartini/catppuccin
 * [appbar](https://github.com/deathcrafter/PluginAppBar) by [deathcrafter](https://github.com/deathcrafter)
 * [backlight](https://forum.rainmeter.net/viewtopic.php?t=19221) by [cfixd](https://github.com/cfixd)
 * [configactive](https://forum.rainmeter.net/viewtopic.php?t=28720) by [jsmorley](https://github.com/jsmorley)
-* [focus](https://forum.rainmeter.net/viewtopic.php?t=37989) by [deathcrafter](https://github.com/deathcrafter)
+* [frostedglass](https://github.com/Meti0X7CB/FrostedGlass) by [Meti0X7CB](https://github.com/Meti0X7CB), [TheAzack9](https://github.com/TheAzack9) & [khanhas](https://github.com/khanhas)
 * [getactivetitle](https://forum.rainmeter.net/viewtopic.php?t=33146) by [jsmorley](https://github.com/jsmorley)
+* [hotkey](https://github.com/brianferguson/HotKey.dll) by [brianferguson](https://github.com/brianferguson)
 * [isfullscreen](https://forum.rainmeter.net/viewtopic.php?t=28305) by [jsmorley](https://github.com/jsmorley)
 * [powershellrm](https://forum.rainmeter.net/viewtopic.php?t=29095) by [khanhas](https://github.com/khanhas)
 * [programoptions](https://forum.rainmeter.net/viewtopic.php?t=22868) by [TheAzack9](https://github.com/TheAzack9)
