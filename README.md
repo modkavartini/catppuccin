@@ -54,3 +54,5 @@ mond install modkavartini/catppuccin
 * [programoptions](https://forum.rainmeter.net/viewtopic.php?t=22868) by [TheAzack9](https://github.com/TheAzack9)
 * [webnowplaying](https://github.com/keifufu/WebNowPlaying-Redux) by [keifufu](https://github.com/keifufu) & [tjhrulz](https://github.com/tjhrulz)
 
+#### inspiration:
+* [this](https://discord.com/channels/635612648934735892/635625917623828520/1116071111688474664) showcase posted by [BANanaD3V](https://github.com/BANanaD3V) in the [unixporn](https://www.reddit.com/r/unixporn/) discord server
