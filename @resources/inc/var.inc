@@ -41,7 +41,7 @@ reservedAt=TOP
 direction=0
 
 infoGap=26
-iconGap=(#infoGap#-19)
+iconGap=7
 spaces=\s
 
 sensitivity=35
@@ -90,7 +90,7 @@ runningAlpha=200
 notRunningAlpha=90
 pinAlpha=150
 
-pinnedApps=0
+pinnedApps=1
 hideAnyRepeat=1
 centerApps=1
 replaceWin=0
