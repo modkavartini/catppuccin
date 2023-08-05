@@ -9,5 +9,5 @@ what's new: ##
 * fixed a few typ- *ahem*. errors.
 
 note: ##
-* if you use either `hide windows taskbar` or `replace win key` please disable it before trying to update or it will fail
+* if you use either of the `hide windows taskbar` or `replace win key` features, please disable it before trying to update or it will fail
 * i will fix this in a future update
