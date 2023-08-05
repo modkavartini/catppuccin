@@ -91,7 +91,7 @@ notRunningAlpha=90
 pinAlpha=150
 
 pinnedApps=1
-hideAnyRepeat=1
+hideAnyRepeat=0
 centerApps=1
 replaceWin=0
 hideTaskbar=0
@@ -106,7 +106,7 @@ tPopup=1
 monStart=1
 
 mediaDisp=1
-visDisp=1
+visDisp=0
 wifiDisp=1
 brightDisp=0
 volumeDisp=1
