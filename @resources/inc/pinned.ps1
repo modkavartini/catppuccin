@@ -24,21 +24,21 @@ function copyPinned {
     $lnk=$obj.createShortcut($itemPath)
     $lnkTargetPath=$lnk.targetPath
     $lnkArguments=$lnk.arguments
-    $lnkName=try { (split-Path -path $lnkTargetPath -leaf) -replace '.exe','' } catch { 'N/A' }
+    $lnkName=try { (split-Path -path $lnkTargetPath -leaf) -replace '.exe','' } catch { 'NA' }
     $copyLnk=1
 
-    if(($lnkName -match "N/A") -and ($itemPath -match "File Explorer")) {
+    if(($lnkName -match "NA") -and ($itemPath -match "File Explorer")) {
         $newLnk=$obj.createShortcut("$destPath\explorer.lnk")
         $newLnk.targetPath="%windir%\explorer.exe"
         $newLnk.save()
         $copyLnk=0
     }
     if(($lnkName -match "chrome_proxy") -and ($lnkTargetPath -match "Chrome\\Application")) {
-        $lnkName=try { (split-Path -path $itemPath -leaf) -replace '.lnk','' } catch { 'N/A' }
+        $lnkName=try { (split-Path -path $itemPath -leaf) -replace '.lnk','' } catch { 'NA' }
     }
     
     if($lnkArguments -match "-processStart") {
-        $lnkName=([regex]::match($lnkArguments, "\s(.*).exe").groups[1].value)
+        $lnkName=([regex]::match($lnkArguments, "processStart\s(.*).exe").groups[1].value)
         $inPath=$lnk.workingDirectory
         $newLnk=$obj.createShortcut("$destPath\$lnkName.lnk")
         $newLnk.targetPath="$inPath" + "\$lnkName.exe"
@@ -50,7 +50,7 @@ function copyPinned {
 }
 
 function clearDest {
-    get-ChildItem $destPath -filter *.lnk -r | forEach-Object { $_.Delete() }
+    get-ChildItem $destPath -filter *.lnk -r | where-Object { $_.BaseName -notmatch "explorer" } | forEach-Object { $_.Delete() }
 }
 
 function hideAnyRepeat {
