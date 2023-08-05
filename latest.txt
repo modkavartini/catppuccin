@@ -7,3 +7,7 @@ what's new: ##
 * added a var for pipe-icon gap
 * added a font-switch button
 * fixed a few typ- *ahem*. errors.
+
+note: ##
+* if you use either `hide windows taskbar` or `replace win key` please disable it before trying to update or it will fail
+* i will fix this in a future update
