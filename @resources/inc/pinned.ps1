@@ -1,8 +1,9 @@
 
-$script:destPath=$RmAPI.VariableStr("@")+ "\pinned"
+$destPath=$RmAPI.VariableStr("@")+ "\pinned"
+$pinnedApps=$RmAPI.Variable("pinnedApps")
+$hideAnyRepeat=$RmAPI.Variable("hideAnyRepeat")
 
 function pin {
-    $pinnedApps=$RmAPI.Variable("pinnedApps")
     if($pinnedApps -eq 0) { break }
     clearDest
     $pinnedPath="$env:AppData\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar"
@@ -12,7 +13,7 @@ function pin {
         $itemName=$_.baseName
         if("$itemName" -notmatch "Rainmeter|$pinIgnore") { copyPinned "$itemPath" }
     }
-    hideAnyRepeat
+    if($hideAnyRepeat -eq 1) { hideAnyRepeat }
     $RmAPI.Bang("!updateMeterGroup apps")
     $RmAPI.Bang("!redraw")
 }
@@ -53,17 +54,17 @@ function clearDest {
 }
 
 function hideAnyRepeat {
-    $pinnedApps=$RmAPI.Variable("pinnedApps")
-    if($pinnedApps -eq 0) { break }
-    $hideAnyRepeat=$RmAPI.Variable("hideAnyRepeat")
     if($hideAnyRepeat -eq 0) { break }
     $processCount=$RmAPI.Variable("processCount")
     for($i=0; $i -lt $processCount; $i++) {
         $iProgramName=$RmAPI.VariableStr("programName$i")
+        $iProgramsCount=$RmAPI.Variable("programsCount$i")
         for($j=($i+1); $j -lt $processCount; $j++) {
             $jProgramName=$RmAPI.VariableStr("programName$j")
-            if(($iProgramName -match $jProgramName) -or ($iProgramName -match "empty")) {
-                #$RmAPI.Bang("!setOption $i hidden `"`"`"(([#programsCount$i]<1?1:0))`"`"`"")
+            $jProgramsCount=$RmAPI.Variable("programsCount$j")
+            if((("$iProgramName" -match "$jProgramName") -and ($iProgramsCount -eq 0) -and ($jProgramsCount -gt 0)) -or ($iProgramName -eq "empty")) {
+                $RmAPI.Bang("!hidemeter $i")
+                #$RmAPI.Bang("!log hideAnyRepeat:$i")
             }
         }
     }
