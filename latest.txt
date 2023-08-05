@@ -9,5 +9,5 @@ what's new: ##
 * fixed a few typ- *ahem*. errors.
 
 note: ##
-* if you use either of the `hide windows taskbar` or `replace win key` features, please disable it before trying to update or it will fail
+* in v1.3.0, you will have to disable the 2nd and 3rd features in the configure tab to be able to update.
 * i will fix this in a future update
