@@ -5,7 +5,7 @@
 [variables]
 @include=#@#inc\flavors.inc
 
-accent=8
+accent=3
 ;0-13
 ;rosewater, flamingo, pink, mauve, red, maroon, peach, yellow, green, teal, sky, sapphire, blue, lavender
 
@@ -52,7 +52,7 @@ minHeight=0
 barYPadding=#maxBarHeight#
 bGap=1
 div=3
-visSmooth=10
+visSmooth=5
 avgSize=(#visSmooth#/2)
 
 appGap=15
@@ -89,7 +89,11 @@ yesPacEmojiColor=#color7#
 runningAlpha=200
 notRunningAlpha=90
 pinAlpha=150
+dUserID=944986926400811008
+userName=modka
 
+dNameType=1
+useDiscord=1
 pinnedApps=1
 hideAnyRepeat=0
 centerApps=1
@@ -106,9 +110,9 @@ tPopup=1
 monStart=1
 
 mediaDisp=1
-visDisp=0
+visDisp=1
 wifiDisp=1
-brightDisp=0
+brightDisp=1
 volumeDisp=1
 batteryDisp=1
 cpuDisp=1
