@@ -46,13 +46,13 @@ spaces=\s
 
 sensitivity=35
 barWidth=8
-maxBarHeight=(#bHeight#/2.75)
+maxBarHeight=(#bHeight#/3)
 ;if you add -ve to this value, the vis will be inverted :)
 minHeight=0
 barYPadding=#maxBarHeight#
 bGap=1
-div=3
-visSmooth=5
+
+visSmooth=10
 avgSize=(#visSmooth#/2)
 
 appGap=15
@@ -108,15 +108,16 @@ iconHide=1
 titleS=1
 tPopup=1
 monStart=1
+shadow=1
 
 mediaDisp=1
-visDisp=1
+visDisp=0
 wifiDisp=1
 brightDisp=1
 volumeDisp=1
 batteryDisp=1
 cpuDisp=1
-ramDisp=1
+ramDisp=0
 
 pinIgnore=none|none
 player=spotify|youtube
