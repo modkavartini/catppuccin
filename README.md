@@ -40,7 +40,7 @@ mond install modkavartini/catppuccin
 
 ### credits
 * [the catppuccin theme](https://github.com/catppuccin/catppuccin)
-* the rainmeter [discord server](https://discord.gg/rainmeter) 💖
+* the rainmeter [discord server](https://discord.gg/rainmeter) (jeff) ♡
 * [luatween-for-rainmeter](https://github.com/bluwy/LuaTween-for-Rainmeter) by [bluwy](https://github.com/bluwy)
 #### plugins
 * [appbar](https://github.com/deathcrafter/PluginAppBar) by [deathcrafter](https://github.com/deathcrafter)
