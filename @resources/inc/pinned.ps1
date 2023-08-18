@@ -1,9 +1,10 @@
 
-$destPath=$RmAPI.VariableStr("@")+ "\pinned"
+$destPath=$RmAPI.VariableStr("@") + "\pinned"
+$appsDisp=$RmAPI.Variable("appsDisp")
 $pinnedApps=$RmAPI.Variable("pinnedApps")
-$hideAnyRepeat=$RmAPI.Variable("hideAnyRepeat")
 
 function pin {
+    if($appsDisp -eq 0) { break }
     if($pinnedApps -eq 0) { break }
     clearDest
     $pinnedPath="$env:AppData\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar"
@@ -13,7 +14,6 @@ function pin {
         $itemName=$_.baseName
         if("$itemName" -notmatch "Rainmeter|$pinIgnore") { copyPinned "$itemPath" }
     }
-    if($hideAnyRepeat -eq 1) { hideAnyRepeat }
     $RmAPI.Bang("!updateMeterGroup apps")
     $RmAPI.Bang("!redraw")
 }
@@ -51,21 +51,4 @@ function copyPinned {
 
 function clearDest {
     get-ChildItem $destPath -filter *.lnk -r | where-Object { $_.BaseName -notmatch "explorer" } | forEach-Object { $_.Delete() }
-}
-
-function hideAnyRepeat {
-    if($hideAnyRepeat -eq 0) { break }
-    $processCount=$RmAPI.Variable("processCount")
-    for($i=0; $i -lt $processCount; $i++) {
-        $iProgramName=$RmAPI.VariableStr("programName$i")
-        $iProgramsCount=$RmAPI.Variable("programsCount$i")
-        for($j=($i+1); $j -lt $processCount; $j++) {
-            $jProgramName=$RmAPI.VariableStr("programName$j")
-            $jProgramsCount=$RmAPI.Variable("programsCount$j")
-            if((("$iProgramName" -match "$jProgramName") -and ($iProgramsCount -eq 0) -and ($jProgramsCount -gt 0)) -or ($iProgramName -eq "empty")) {
-                $RmAPI.Bang("!hidemeter $i")
-                #$RmAPI.Bang("!log hideAnyRepeat:$i")
-            }
-        }
-    }
 }
