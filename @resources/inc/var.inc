@@ -19,7 +19,7 @@ fontW=400
 iconW=400
 bCorner=15
 pCorner=15
-stkW=0
+stkW=4
 
 maxAppCount=10
 ;do not change
@@ -52,8 +52,10 @@ minHeight=0
 barYPadding=#maxBarHeight#
 bGap=1
 
+accuracy=4
+FPS=60
 visSmooth=10
-avgSize=(#visSmooth#/2)
+avgSize=(#visSmooth#/4)
 
 appGap=15
 popupGap=10
@@ -108,7 +110,7 @@ iconHide=1
 titleS=1
 tPopup=1
 monStart=1
-shadow=1
+shadow=0
 
 appsDisp=1
 mediaDisp=1
@@ -118,7 +120,7 @@ brightDisp=1
 volumeDisp=1
 batteryDisp=1
 cpuDisp=1
-ramDisp=0
+ramDisp=1
 
 pinIgnore=none|none
 player=spotify|youtube
