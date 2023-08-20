@@ -19,7 +19,7 @@ fontW=400
 iconW=400
 bCorner=15
 pCorner=15
-stkW=4
+stkW=0
 
 maxAppCount=10
 ;do not change
