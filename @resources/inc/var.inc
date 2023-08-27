@@ -62,6 +62,9 @@ popupGap=10
 childGap=#popupGap#
 iStroke=4
 hStroke=-4
+mPadding=10
+menewwBg=0
+invertBg=0
 
 ;do not change->
 barY=0
@@ -97,12 +100,31 @@ dUserID=944986926400811008
 userName=[&sysUserName]
 userImgPath=#@#user.png
 
+p0.Name=GH
+p1.Name=YT
+p2.Name=RD
+p3.Name=DA
+p0.Action=[https://github.com]
+p1.Action=[https://www.youtube.com]
+p2.Action=[https://www.reddit.com]
+p3.Action=[https://www.deviantart.com]
+folder1=home
+folder2=downloads
+folder3=music
+folder4=pictures
+folder5=wallpapers
+folder1Path=[Shell:MyComputerFolder]
+folder2Path=[Shell:Downloads]
+folder3Path=[Shell:My Music]
+folder4Path=[Shell:My Pictures]
+folder5Path=[Shell:Downloads\Wallpapers]
+
 menuType=1
 dNameType=1
 useDiscord=1
 pinnedApps=1
 centerApps=1
-replaceWin=0
+replaceWin=1
 hideTaskbar=0
 pacMode=1
 rSpace=0
