@@ -60,6 +60,8 @@ avgSize=(#visSmooth#/4)
 appGap=15
 popupGap=10
 childGap=#popupGap#
+iStroke=4
+hStroke=-4
 
 ;do not change->
 barY=0
@@ -92,8 +94,10 @@ runningAlpha=200
 notRunningAlpha=90
 pinAlpha=150
 dUserID=944986926400811008
-userName=modka
+userName=[&sysUserName]
+userImgPath=#@#user.png
 
+menuType=1
 dNameType=1
 useDiscord=1
 pinnedApps=1
