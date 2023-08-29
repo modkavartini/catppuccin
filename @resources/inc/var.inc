@@ -119,6 +119,7 @@ folder3Path=Shell:My Music
 folder4Path=Shell:My Pictures
 folder5Path=Shell:Downloads\Wallpapers
 
+useImperial=0
 menuType=1
 dNameType=1
 useDiscord=1
@@ -141,6 +142,7 @@ shadow=0
 appsDisp=1
 mediaDisp=1
 visDisp=1
+weatherDisp=1
 wifiDisp=1
 brightDisp=0
 volumeDisp=1
