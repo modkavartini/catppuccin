@@ -1,4 +1,5 @@
-function setWindowName { # Sets the subprocess names.
+function setWindowName {
+    $setMedia=1
     $processCount=$RmAPI.Variable("processCount")
     $title=$RmAPI.MeasureStr("mTitle")
     $artist=$RmAPI.MeasureStr("mArtist")
@@ -14,12 +15,13 @@ function setWindowName { # Sets the subprocess names.
                 $RmAPI.Bang("!commandMeasure programOptions$pOI SetVariable|wName0$j$i|ChildWindowName|$i|$j")
                 $RmAPI.Bang("!commandMeasure programOptions$pOI SetVariable|handle0$j$i|ChildHandle|$i|$j")
                 $wName=$RmAPI.VariableStr("wName0$j$i")
-                if(($wName -match "$title|$artist|$player") -or ($programName -match "$player")) {
+                if((($wName -match "$title|$artist|$player") -or ($programName -match "$player")) -and ($setMedia -eq 1)) {
                     $RmAPI.Bang("!setVariable mediaAt $i")
                     $RmAPI.Bang("!setVariable mediaAtC 0")
                     if($wName -match "$title|$artist|$player") {
                         $RmAPI.Bang("!setVariable mediaAtC $j")
                     }
+                    $setMedia=0
                 }
                 if(($programName -match "explorer") -and ($wName -match "% complete")) {
                     $RmAPI.Bang("!setVariable progAt $i")
