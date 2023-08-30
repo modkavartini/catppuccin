@@ -121,6 +121,7 @@ folder5Path=Shell:Downloads\Wallpapers
 
 useImperial=0
 menuType=1
+loadAnims=1
 dNameType=1
 useDiscord=1
 pinnedApps=1
