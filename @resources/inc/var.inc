@@ -34,7 +34,7 @@ edgePadding=20
 yPadding=20
 bWidth=(#workAreaWidth#-(#xPadding#*2))
 bHeight=60
-reservedSpace=59
+reservedSpace=99
 
 ;dynamic vars, do not change
 reservedAt=TOP
@@ -56,6 +56,7 @@ accuracy=4
 FPS=60
 visSmooth=10
 avgSize=(#visSmooth#/4)
+visMultiplier=1.0
 
 appGap=15
 popupGap=10
@@ -140,7 +141,7 @@ tPopup=1
 monStart=1
 shadow=0
 
-appsDisp=1
+appsDisp=0
 mediaDisp=1
 visDisp=1
 weatherDisp=1
