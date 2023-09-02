@@ -26,3 +26,10 @@ lockStk=#iStroke#
 monitorStk=#iStroke#
 
 hoverStk=(#iStroke#+#hStroke#)
+
+[screenOff]
+measure=plugin
+plugin=runcommand
+program=powershell
+parameter="""#@#menu\screenOff.bat"""
+timeout=5000
