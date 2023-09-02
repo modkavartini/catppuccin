@@ -1,3 +1,8 @@
+[units]
+measure=calc
+formula=[#useImperial]
+substitute="0":"m","1":"e"
+
 [Variables]
 
 ; NOTE that Location Codes like USVA0944 or other types of codes are no longer supported.
@@ -63,7 +68,7 @@ Units=[&units]
 
 ; How often to update the weather information. Default and recommended is 600, which would be 10 minutes.
 
-UpdateRate=600
+UpdateRate=6000
 
 ; Date and time formats you desire.
 ; See https://docs.rainmeter.net/manual/measures/time/#FormatCodes 
