@@ -50,5 +50,21 @@ function copyPinned {
 }
 
 function clearDest {
-    get-ChildItem $destPath -filter *.lnk -r | where-Object { $_.BaseName -notmatch "explorer" } | forEach-Object { $_.Delete() }
+    get-ChildItem $destPath -filter *.lnk -r | where-Object { $_.baseName -notmatch "explorer" } | forEach-Object { $_.Delete() }
 }
+
+function setVersion {
+    $currentVer = $RmAPI.VariableStr("currentVer")
+    $currentFilePath = $RmAPI.VariableStr("currentPath") + $RmAPI.VariableStr("currentFile")
+    $mondPath = $RmAPI.VariableStr("@") + "mond.inc"
+    get-Content $currentFilePath | select-String "^version=" | forEach-Object {
+        $barVersion = $_.line -replace '.*=',''
+        if ($currentVer -ne $barVersion) { $RmAPI.Bang("!writekeyvalue metadata version `"$currentVer`"") }
+    }
+    get-Content $mondPath | select-String "^Version=" | forEach-Object {
+        $mondVersion = $_.line -replace '.*=',''
+        if ($currentVer -ne $mondVersion) { $RmAPI.Bang("!writekeyvalue MonD Version `"$currentVer`" `"$mondPath`"") }
+    }
+}
+
+setVersion
