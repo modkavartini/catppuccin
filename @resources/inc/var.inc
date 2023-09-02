@@ -1,4 +1,4 @@
-﻿;manual editing of these values is not advised.
+;manual editing of these values is not advised.
 ;use the included settings skin for customisation.
 ;if you still wish to proceed, do so with caution.
 
@@ -24,7 +24,7 @@ stkW=0
 maxAppCount=10
 ;do not change
 
-updateRate=2
+updateR=2
 sysIncDecVal=5
 appIncDecVal=2
 
@@ -141,7 +141,7 @@ tPopup=1
 monStart=1
 shadow=0
 
-appsDisp=0
+appsDisp=1
 mediaDisp=1
 visDisp=1
 weatherDisp=1
@@ -151,6 +151,8 @@ volumeDisp=1
 batteryDisp=1
 cpuDisp=1
 ramDisp=1
+
+dispSum=([#appsDisp]+[#mediaDisp]+[#visDisp])
 
 pinIgnore=none|none
 player=spotify|youtube
