@@ -15,3 +15,6 @@ function setInline {
         }
     }
 }
+
+$varPath=$RmAPI.VariableStr("@") + "inc\var.inc"
+set-Content $varPath (get-Content $varPath | select-String -pattern "^(\d|\d\d)\.(\d|\d\d)=$" -notMatch)
