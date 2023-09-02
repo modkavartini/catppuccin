@@ -9,7 +9,7 @@
 ;you may add custom infos according to the format provided in the example below
 ;the sections should follow the order and pattern of [m<info>Disp],[<info>Disp],[<info>]
 ;if the measure is a system info monitor, you may add `updatedivider=-1` and `group=rate` under the [m<info>Disp]
-;this makes it update only every #updateRate# seconds (2 by default)
+;this makes it update only every #updateR# seconds (2 by default)
 ;the variable `<info>Disp=1` should be declared under [variables] to show/hide the info
 ;the variable `<info>Icon` is the unicode value of the icon to be used
 ;you may use a site like https://fontdrop.info/ to view the "icomooccin" icon file in the skin's @resources\fonts folder
