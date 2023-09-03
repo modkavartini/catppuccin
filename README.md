@@ -13,16 +13,12 @@
 </h3>
 
 ## preview
-![1](https://i.imgur.com/1tFK1eV.png)
-![2](https://i.imgur.com/urNCOq8.png)
-![3](https://i.imgur.com/A1yHRf6.png)
-![4](https://i.imgur.com/jh5HAsk.png)
-![5](https://i.imgur.com/QWwqPth.png)
-![6](https://i.imgur.com/XDKrLqD.png)
-![7](https://i.imgur.com/jPuo8ZW.png)
-![8](https://i.imgur.com/bKf6PQf.png)
-![pac](https://github.com/modkavartini/catppuccin/assets/81793953/50ad07fa-e0b0-47ad-818f-717442b5553d)
-![full](https://github.com/modkavartini/catppuccin/assets/81793953/3dfcb896-7795-4de3-bc7c-4a3ee0257d7a)
+![compositeBar](https://github.com/modkavartini/catppuccin/assets/81793953/36d86151-e783-431f-93a3-79394e2c44ea)
+![gridFull](https://github.com/modkavartini/catppuccin/assets/81793953/a4c0b604-58a2-41a8-b2f3-0334e3e266a8)
+## screenshots
+![meneww](https://github.com/modkavartini/catppuccin/assets/81793953/a63cebf5-dde2-4504-bbce-ec28b25b1f27)
+![pac](https://github.com/modkavartini/catppuccin/assets/81793953/f58d7dc3-0b61-4018-be85-d0e199e14975)
+![full](https://github.com/modkavartini/catppuccin/assets/81793953/524e3b59-64aa-4da8-bf93-28b441aa10ba)
 
 ### installation
 #### using [MonD](https://github.com/meters-on-demand/cli)
