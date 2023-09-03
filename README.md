@@ -16,6 +16,7 @@
 ![compositeBar](https://github.com/modkavartini/catppuccin/assets/81793953/36d86151-e783-431f-93a3-79394e2c44ea)
 ![gridFull](https://github.com/modkavartini/catppuccin/assets/81793953/a4c0b604-58a2-41a8-b2f3-0334e3e266a8)
 ## screenshots
+![meneww](https://github.com/modkavartini/catppuccin/assets/81793953/a63cebf5-dde2-4504-bbce-ec28b25b1f27)
 ![pac](https://github.com/modkavartini/catppuccin/assets/81793953/f58d7dc3-0b61-4018-be85-d0e199e14975)
 ![full](https://github.com/modkavartini/catppuccin/assets/81793953/524e3b59-64aa-4da8-bf93-28b441aa10ba)
 
