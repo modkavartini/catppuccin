@@ -141,14 +141,14 @@ tPopup=1
 monStart=1
 shadow=0
 
-appsDisp=1
+appsDisp=0
 mediaDisp=1
 visDisp=1
 weatherDisp=1
 wifiDisp=1
 brightDisp=0
 volumeDisp=1
-batteryDisp=1
+batteryDisp=0
 cpuDisp=1
 ramDisp=1
 
