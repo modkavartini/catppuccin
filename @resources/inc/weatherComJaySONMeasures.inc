@@ -8,6 +8,7 @@ LogSubstringErrors=0
 RegExp=(?s)^(.*)$
 StringIndex=1
 FinishAction=[!EnableMeasureGroup Parents]
+Disabled=(1-#weatherDisp#)
 DynamicVariables=1
 
 [@CurrentConditionsParent]
@@ -43,7 +44,7 @@ Measure=WebParser
 URL=[@CurrentConditionsParent]
 StringIndex=2
 RegExpSubstitute=1
-Substitute=#CommonSubstitute#,"^$|44|na":"loading","^0$":"tornado","^1$|^2$":"hurricane","^3$|^4$":"thunder","^5$|^7$|13|14|16|41|42|43|46":"ice","^6$|^8$|10|17|18|35":"balls","^9$|11|39|45":"2drops","12|40":"3drops","15|23|24|25":"windy","19|20|21|22":"hazy","26|44":"cloud","27|29|47":"moonC","28|30|34|37|38":"sunC","31":"moonS","32|36":"sun","33":"moon"
+Substitute=#CommonSubstitute#,"^$|44|^na$":"loading","^0$":"tornado","^1$|^2$":"hurricane","^3$|^4$":"thunder","^5$|^7$|13|14|16|41|42|43|46":"ice","^6$|^8$|10|17|18|35":"balls","^9$|11|39|45":"2drops","12|40":"3drops","15|23|24|25":"windy","19|20|21|22":"hazy","26|44":"cloud","27|29|47":"moonC","28|30|34|37|38":"sunC","31":"moonS","32|36":"sun","33":"moon"
 
 [@CurrentConditions]
 Measure=WebParser
