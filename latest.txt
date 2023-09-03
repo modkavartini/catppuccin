@@ -1,13 +1,14 @@
-version=1.3.1
+version=1.4.0
 
 what's new: ##
 
-* added toggle to hide repeat apps
-* added a skin for bg tasks
-* added a var for pipe-icon gap
-* added a font-switch button
-* fixed a few typ- *ahem*. errors.
-
-note: ##
-* in v1.3.0, you will have to disable the 2nd and 3rd features in the configure tab to be able to update.
-* i will fix this in a future update
+* added meneww 
+* added weather info
+* added custom snippets for infos
+* added an optional shadow
+* added an apps toggle 
+* added an am/pm toggle
+* added visualizer multiplier 
+* the settings scrollbar is now draggable and clickable
+* rewrote and improved updater to not freeze rainmeter for 30 seconds skull
+* added optimal audiolevel for the visualizer :3
