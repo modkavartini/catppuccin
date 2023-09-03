@@ -9,6 +9,6 @@ what's new: ##
 * added an apps toggle 
 * added an am/pm toggle
 * added visualizer multiplier 
-* the settings scrollbar is now draggable and clickable
-* rewrote and improved updater to not freeze rainmeter for 30 seconds skull
-* added optimal audiolevel for the visualizer :3
+* better updater
+* major performance improvements
+* bug fixes as always 💖
