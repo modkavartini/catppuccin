@@ -1,20 +1,20 @@
 
-[MeasureSamplingRate]
-Measure=Plugin
-Plugin=AudioLevel
-Type=Format
-RegExpSubstitute=1
-Substitute="(Hz.*)$":""
-UpdateDivider=-1
+[measureSamplingRate]
+measure=plugin
+plugin=audioLevel
+type=format
+regExpSubstitute=1
+substitute="(Hz.*)$":""
+updateDivider=-1
 
 [mAudio]
 measure=plugin
 plugin=audiolevel
 port=output
-FFTSize=(Floor([MeasureSamplingRate] * #accuracy# / #FPS#))
-FFTOverlap=(Floor([MeasureSamplingRate] * (#accuracy# - 1) / #FPS#))
-fftattack=0
-fftdecay=50
+FFTSize=(floor([measureSamplingRate] * #accuracy# / #FPS#))
+FFTOverlap=(floor([measureSamplingRate] * (#accuracy# - 1) / #FPS#))
+FFTattack=0
+FFTdecay=50
 bands=14
 freqmin=20
 freqmax=16500
