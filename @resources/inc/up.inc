@@ -2,7 +2,7 @@
 ;thank you.
 
 [variables]
-currentVer=1.4.0
+currentVer=1.4.1
 
 [latestVer]
 measure=webparser
