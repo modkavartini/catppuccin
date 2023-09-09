@@ -6,4 +6,8 @@ what's new: ##
 * cleaner updater window
 * improved discord sync
 * better replaceWin.exe
-* if you're updating from v1.4.0 you get to test the new updater :3
+* you get to see the new updater :3
+
+note: ##
+if a window opens and closes immediately when you click install, scripts might be disabled on your device
+* run `Set-ExecutionPolicy Unrestricted` in powershell to fix it.
