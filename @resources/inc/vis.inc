@@ -15,7 +15,7 @@ FFTSize=(floor([measureSamplingRate] * #accuracy# / #FPS#))
 FFTOverlap=(floor([measureSamplingRate] * (#accuracy# - 1) / #FPS#))
 FFTattack=0
 FFTdecay=50
-bands=14
+bands=15
 freqmin=20
 freqmax=16500
 sensitivity=#sensitivity#
@@ -29,7 +29,7 @@ parent=mAudio
 type=band
 averagesize=#avgSize#
 disabled=(1-#visDisp#)
-bandidx=2
+bandidx=3
 [b2]
 measure=plugin
 plugin=audiolevel
@@ -37,7 +37,7 @@ parent=mAudio
 type=band
 averagesize=#avgSize#
 disabled=(1-#visDisp#)
-bandidx=3
+bandidx=4
 [b3]
 measure=plugin
 plugin=audiolevel
@@ -45,7 +45,7 @@ parent=mAudio
 type=band
 averagesize=#avgSize#
 disabled=(1-#visDisp#)
-bandidx=4
+bandidx=5
 [b4]
 measure=plugin
 plugin=audiolevel
@@ -53,7 +53,7 @@ parent=mAudio
 type=band
 averagesize=#avgSize#
 disabled=(1-#visDisp#)
-bandidx=5
+bandidx=6
 [b5]
 measure=plugin
 plugin=audiolevel
@@ -61,7 +61,7 @@ parent=mAudio
 type=band
 averagesize=#avgSize#
 disabled=(1-#visDisp#)
-bandidx=6
+bandidx=7
 [b6]
 measure=plugin
 plugin=audiolevel
@@ -69,7 +69,7 @@ parent=mAudio
 type=band
 averagesize=#avgSize#
 disabled=(1-#visDisp#)
-bandidx=7
+bandidx=8
 [b7]
 measure=plugin
 plugin=audiolevel
@@ -77,7 +77,7 @@ parent=mAudio
 type=band
 averagesize=#avgSize#
 disabled=(1-#visDisp#)
-bandidx=8
+bandidx=9
 [b8]
 measure=plugin
 plugin=audiolevel
@@ -85,7 +85,7 @@ parent=mAudio
 type=band
 averagesize=#avgSize#
 disabled=(1-#visDisp#)
-bandidx=9
+bandidx=10
 [b9]
 measure=plugin
 plugin=audiolevel
@@ -93,7 +93,7 @@ parent=mAudio
 type=band
 averagesize=#avgSize#
 disabled=(1-#visDisp#)
-bandidx=10
+bandidx=11
 [b10]
 measure=plugin
 plugin=audiolevel
@@ -101,7 +101,7 @@ parent=mAudio
 type=band
 averagesize=#avgSize#
 disabled=(1-#visDisp#)
-bandidx=11
+bandidx=12
 [b11]
 measure=plugin
 plugin=audiolevel
@@ -109,7 +109,7 @@ parent=mAudio
 type=band
 averagesize=#avgSize#
 disabled=(1-#visDisp#)
-bandidx=12
+bandidx=13
 [b12]
 measure=plugin
 plugin=audiolevel
@@ -117,5 +117,5 @@ parent=mAudio
 type=band
 averagesize=#avgSize#
 disabled=(1-#visDisp#)
-bandidx=13
+bandidx=14
 
