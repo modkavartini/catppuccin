@@ -5,11 +5,11 @@
 [variables]
 @include=#@#inc\flavors.inc
 
-accent=3
+accent=4
 ;0-13
 ;rosewater, flamingo, pink, mauve, red, maroon, peach, yellow, green, teal, sky, sapphire, blue, lavender
 
-flavor=3
+flavor=2
 ;0-4
 ;latte, frappe, macchiato, mocha, custom
 
@@ -146,13 +146,13 @@ mediaDisp=1
 visDisp=1
 weatherDisp=1
 wifiDisp=0
-brightDisp=0
+brightDisp=1
 volumeDisp=1
 batteryDisp=0
-cpuDisp=1
-ramDisp=1
+cpuDisp=0
+ramDisp=0
 
-dispSum=([#appsDisp]+[#mediaDisp]+[#visDisp])
+dispSum=([#appsDisp]+[#mediaDisp])
 
 pinIgnore=none|none
 player=spotify|youtube
