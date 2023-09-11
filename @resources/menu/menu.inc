@@ -1,3 +1,7 @@
+[rainmeter]
+contexttitle=open settings
+contextaction=[!activateconfig "#rootConfig#\settings"]
+
 [variables]
 
 shutdownC=#color4#
