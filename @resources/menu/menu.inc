@@ -13,7 +13,8 @@ monitorC=#color7#
 
 shutdownA=["#@#addons\nircmd.exe" exitwin shutdown]
 rebootA=["#@#addons\nircmd.exe" exitwin reboot]
-sleepA=["#@#addons\nircmd.exe" standby]
+sleepA=["#@#addons\nircmd.exe" hibernate]
+;["#@#addons\nircmd.exe" standby]
 logoffA=["#@#addons\nircmd.exe" exitwin logoff]
 lockA=["#@#addons\nircmd.exe" lockws]
 monitorA=[!commandmeasure screenOff "run"]

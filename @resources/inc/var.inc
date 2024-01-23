@@ -5,11 +5,11 @@
 [variables]
 @include=#@#inc\flavors.inc
 
-accent=4
+accent=3
 ;0-13
 ;rosewater, flamingo, pink, mauve, red, maroon, peach, yellow, green, teal, sky, sapphire, blue, lavender
 
-flavor=2
+flavor=3
 ;0-4
 ;latte, frappe, macchiato, mocha, custom
 
@@ -34,7 +34,7 @@ edgePadding=20
 yPadding=20
 bWidth=(#workAreaWidth#-(#xPadding#*2))
 bHeight=60
-reservedSpace=99
+reservedSpace=59
 
 ;dynamic vars, do not change
 reservedAt=TOP
@@ -62,7 +62,7 @@ appGap=15
 popupGap=10
 childGap=#popupGap#
 iStroke=4
-hStroke=-4
+hStroke=2
 mPadding=10
 menewwBg=0
 invertBg=0
@@ -124,7 +124,7 @@ useImperial=0
 menuType=1
 loadAnims=1
 dNameType=1
-useDiscord=1
+useDiscord=0
 pinnedApps=1
 centerApps=1
 replaceWin=1
@@ -134,11 +134,11 @@ rSpace=0
 tFormat=0
 AMPM=0
 td=0
-wifiName=0
+wifiName=1
 iconHide=1
 titleS=1
 tPopup=1
-monStart=1
+monStart=0
 shadow=0
 
 appsDisp=0
@@ -158,8 +158,9 @@ pinIgnore=none|none
 player=spotify|youtube
 nullmTitle0=in my h3ad
 nullmArtist=the voices
-tAS=:\s
+tAS=\s[\x2022]\s
 
 25.12=merry christmas!
 1.1=happy new year!
 31.12=new year's eve
+14.12=2nd series
