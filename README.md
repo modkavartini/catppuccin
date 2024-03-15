@@ -31,6 +31,8 @@ mond install modkavartini/catppuccin
 ### also, check out the [wiki](https://github.com/modkavartini/catppuccin/wiki)!
 
 ### to-do:
+- [ ] monitor index for popups
+- [ ] alpha variable
 - [ ] scale variable
 - [ ] finish wiki
 
