@@ -79,7 +79,7 @@ TimeFormat=%#I:%M %p
 
 ; Don't change any below here.
 
-APIKey=21d8a80b3d6b444998a80b3d6b1449d3
+APIKey=71f92ea9dd2f4790b92ea9dd2f779061
 UserAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 Edg/92.0.902.67
 
 CommonSubstitute='"':"","^null$":"","\\u002F":"/","\\u005C":"\","\\u003C":"<","\\u003E":">"
