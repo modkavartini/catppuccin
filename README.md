@@ -32,6 +32,7 @@ mond install modkavartini/catppuccin
 
 ### to-do:
 - [ ] monitor index for popups
+- [ ] change updater to use the api
 - [ ] alpha variable
 - [ ] lazydev integration?
 - [ ] scale variable
