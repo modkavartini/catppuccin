@@ -5,7 +5,7 @@
 [variables]
 @include=#@#inc\flavors.inc
 
-accent=3
+accent=6
 ;0-13
 ;rosewater, flamingo, pink, mauve, red, maroon, peach, yellow, green, teal, sky, sapphire, blue, lavender
 
@@ -45,6 +45,8 @@ iconGap=7
 spaces=\s
 
 sensitivity=35
+;(35+(20*((100-[mVolumeDisp])/100)))
+;adaptive sensitivity???
 barWidth=8
 maxBarHeight=(#bHeight#/3)
 ;if you add -ve to this value, the vis will be inverted :)
@@ -58,11 +60,13 @@ visSmooth=10
 avgSize=(#visSmooth#/4)
 visMultiplier=1.0
 
+monIndex=1
 appGap=15
 popupGap=10
 childGap=#popupGap#
 iStroke=4
-hStroke=2
+hStroke=30
+petalHStroke=-4
 mPadding=10
 menewwBg=0
 invertBg=0
@@ -124,8 +128,8 @@ useImperial=0
 menuType=1
 loadAnims=1
 dNameType=1
-useDiscord=0
-pinnedApps=1
+useDiscord=1
+pinnedApps=0
 centerApps=1
 replaceWin=1
 hideTaskbar=0
@@ -139,13 +143,13 @@ iconHide=1
 titleS=1
 tPopup=1
 monStart=0
-shadow=0
+shadow=1
 
 appsDisp=0
 mediaDisp=1
 visDisp=1
-weatherDisp=1
-wifiDisp=0
+weatherDisp=0
+wifiDisp=1
 brightDisp=1
 volumeDisp=1
 batteryDisp=0
@@ -163,4 +167,3 @@ tAS=\s[\x2022]\s
 25.12=merry christmas!
 1.1=happy new year!
 31.12=new year's eve
-14.12=2nd series
