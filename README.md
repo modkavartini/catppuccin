@@ -31,7 +31,7 @@ mond install modkavartini/catppuccin
 ### also, check out the [wiki](https://github.com/modkavartini/catppuccin/wiki)!
 
 ## if you likey:
-this suite is completely free! but if you do like it(or me :3) enough to choose to support me,<br>
+this suite is completely free! but if you do like it (or me :3) enough to choose to support me,<br>
 you can do so and i will be very grateful to you :D
 
 <a href="https://www.buymeacoffee.com/modkavartini" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
@@ -46,7 +46,7 @@ you can do so and i will be very grateful to you :D
 
 ### credits
 * [the catppuccin theme](https://github.com/catppuccin/catppuccin)
-* the rainmeter [discord server](https://discord.gg/rainmeter) (jeff) ♡
+* the rainmeter [discord server](https://discord.gg/rainmeter) (esp jeff) ♡
 * [luatween-for-rainmeter](https://github.com/bluwy/LuaTween-for-Rainmeter) by [bluwy](https://github.com/bluwy)
 #### plugins
 * [appbar](https://github.com/deathcrafter/PluginAppBar) by [deathcrafter](https://github.com/deathcrafter)
