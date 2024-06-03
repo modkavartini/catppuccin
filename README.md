@@ -30,6 +30,12 @@ mond install modkavartini/catppuccin
 
 ### also, check out the [wiki](https://github.com/modkavartini/catppuccin/wiki)!
 
+## if you likey:
+this suite is completely free! but if you do like it(or me :3) enough to choose to support me,<br>
+you can do so and i will be very grateful to you :D
+
+<a href="https://www.buymeacoffee.com/modkavartini" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
 ### to-do:
 - [ ] monitor index for popups
 - [ ] change updater to use the api
