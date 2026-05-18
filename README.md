@@ -1,34 +1,56 @@
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-	catppuccin for rainmeter
+	catppuccin for <a href="https://www.rainmeter.net">rainmeter</a>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/palette/macchiato.png" alt="catppuccin palette" width="400" />
+	<a href="https://github.com/modkavartini/catppuccin/stargazers"><img src="https://img.shields.io/github/stars/modkavartini/catppuccin?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/modkavartini/catppuccin/issues"><img src="https://img.shields.io/github/issues/modkavartini/catppuccin?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/modkavartini/catppuccin/contributors"><img src="https://img.shields.io/github/contributors/modkavartini/catppuccin?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
-<h3 align="center">
-	a set of skins made using the catppuccin color scheme
-</h3>
+<p align="center">
+	<img src="https://raw.githubusercontent.com/modkavartini/catppuccin/main/assets/compositeFull.png"/>
 
-## preview
-![compositeBar](https://github.com/modkavartini/catppuccin/assets/81793953/36d86151-e783-431f-93a3-79394e2c44ea)
-![gridFull](https://github.com/modkavartini/catppuccin/assets/81793953/a4c0b604-58a2-41a8-b2f3-0334e3e266a8)
+</p>
+
+## previews
+
+<details>
+<summary>🌻 latte</summary>
+<br>
+<img src="https://raw.githubusercontent.com/modkavartini/catppuccin/main/assets/latte.png"/>
+</details>
+<details>
+<summary>🪴 frappé</summary>
+<br>
+<img src="https://raw.githubusercontent.com/modkavartini/catppuccin/main/assets/frappe.png"/>
+</details>
+<details>
+<summary>🌺 macchiato</summary>
+<br>
+<img src="https://raw.githubusercontent.com/modkavartini/catppuccin/main/assets/macchiato.png"/>
+</details>
+<details>
+<summary>🌿 mocha</summary>
+<br>
+<img src="https://raw.githubusercontent.com/modkavartini/catppuccin/main/assets/mocha.png"/>
+</details>
+
+## usage
+
+* download and install [rainmeter](https://www.rainmeter.net/)
+* download and run the latest `.rmskin` from [releases](https://github.com/modkavartini/catppuccin/releases/latest)
+
+### also, check out the [wiki](https://github.com/modkavartini/catppuccin/wiki)!
+
+
 ## screenshots
 ![meneww](https://github.com/modkavartini/catppuccin/assets/81793953/a63cebf5-dde2-4504-bbce-ec28b25b1f27)
 ![pac](https://github.com/modkavartini/catppuccin/assets/81793953/f58d7dc3-0b61-4018-be85-d0e199e14975)
 ![full](https://github.com/modkavartini/catppuccin/assets/81793953/524e3b59-64aa-4da8-bf93-28b441aa10ba)
-
-### installation
-#### using [MonD](https://github.com/meters-on-demand/cli)
-```ps1
-mond install modkavartini/catppuccin
-```
-#### from releases
-* download and run the latest `.rmskin` from [releases](https://github.com/modkavartini/catppuccin/releases)
-
-### also, check out the [wiki](https://github.com/modkavartini/catppuccin/wiki)!
 
 ## if you likey:
 this suite is completely free! but if you do like it (or me :3) enough to choose to support me,<br>
@@ -44,7 +66,7 @@ you can do so and i will be very grateful to you :D
 - [ ] scale variable
 - [ ] finish wiki
 
-### credits
+### thanks to 💖
 * [the catppuccin theme](https://github.com/catppuccin/catppuccin)
 * the rainmeter [discord server](https://discord.gg/rainmeter) (esp jeff) ♡
 * [luatween-for-rainmeter](https://github.com/bluwy/LuaTween-for-Rainmeter) by [bluwy](https://github.com/bluwy)
@@ -64,3 +86,17 @@ you can do so and i will be very grateful to you :D
 
 #### inspiration:
 * [this](https://discord.com/channels/635612648934735892/635625917623828520/1116071111688474664) showcase posted by [BANanaD3V](https://github.com/BANanaD3V) in the [unixporn](https://www.reddit.com/r/unixporn/) discord server
+
+&nbsp;
+
+<p align="center">
+	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" />
+</p>
+
+<p align="center">
+	Copyright &copy; 2021-present <a href="https://github.com/catppuccin" target="_blank">Catppuccin Org</a>
+</p>
+
+<p align="center">
+	<a href="https://github.com/catppuccin/catppuccin/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a>
+</p>

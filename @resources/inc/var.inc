@@ -163,12 +163,9 @@ pinIgnore=none|none
 player=spotify|youtube
 nullmTitle0=in my h3ad
 nullmArtist=the voices
-tAS=\s•\s
+tAS=:\s
 
 25.12=merry christmas!
 1.1=happy new year!
 31.12=new year's eve
-6.12=PE
-11.12=DS
-13.12=SE
 [#edit]=[#[#edit]]
