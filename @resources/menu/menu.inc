@@ -13,11 +13,11 @@ monitorC=#color7#
 
 shutdownA=["#@#addons\nircmd.exe" exitwin shutdown]
 rebootA=["#@#addons\nircmd.exe" exitwin reboot]
-sleepA=["#@#addons\nircmd.exe" hibernate]
-;["#@#addons\nircmd.exe" standby]
+sleepA=["#@#addons\nircmd.exe" standby]
+;["#@#addons\nircmd.exe" hibernate]
 logoffA=["#@#addons\nircmd.exe" exitwin logoff]
 lockA=["#@#addons\nircmd.exe" lockws]
-monitorA=[!commandmeasure screenOff "run"]
+monitorA=["#@#addons\nircmd.exe" monitor off]
 
 afterAction=[!deactivateconfig]
 
@@ -31,10 +31,3 @@ lockStk=#iStroke#
 monitorStk=#iStroke#
 
 hoverStk=(#iStroke#+#hStroke#)
-
-[screenOff]
-measure=plugin
-plugin=runcommand
-program=powershell
-parameter="""#@#menu\screenOff.bat"""
-timeout=5000

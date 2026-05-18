@@ -5,7 +5,7 @@
 [variables]
 @include=#@#inc\flavors.inc
 
-accent=6
+accent=3
 ;0-13
 ;rosewater, flamingo, pink, mauve, red, maroon, peach, yellow, green, teal, sky, sapphire, blue, lavender
 
@@ -34,7 +34,7 @@ edgePadding=20
 yPadding=20
 bWidth=(#workAreaWidth#-(#xPadding#*2))
 bHeight=60
-reservedSpace=59
+reservedSpace=99
 
 ;dynamic vars, do not change
 reservedAt=TOP
@@ -53,6 +53,7 @@ maxBarHeight=(#bHeight#/3)
 minHeight=0
 barYPadding=#maxBarHeight#
 bGap=1
+centeredBars=0
 
 accuracy=4
 FPS=60
@@ -65,7 +66,7 @@ appGap=15
 popupGap=10
 childGap=#popupGap#
 iStroke=4
-hStroke=30
+hStroke=-4
 petalHStroke=-4
 mPadding=10
 menewwBg=0
@@ -129,9 +130,9 @@ menuType=1
 loadAnims=1
 dNameType=1
 useDiscord=1
-pinnedApps=0
+pinnedApps=1
 centerApps=1
-replaceWin=1
+replaceWin=0
 hideTaskbar=0
 pacMode=1
 rSpace=0
@@ -142,8 +143,8 @@ wifiName=1
 iconHide=1
 titleS=1
 tPopup=1
-monStart=0
-shadow=1
+monStart=1
+shadow=0
 
 appsDisp=0
 mediaDisp=1
@@ -152,7 +153,7 @@ weatherDisp=0
 wifiDisp=1
 brightDisp=1
 volumeDisp=1
-batteryDisp=0
+batteryDisp=1
 cpuDisp=0
 ramDisp=0
 
@@ -162,8 +163,12 @@ pinIgnore=none|none
 player=spotify|youtube
 nullmTitle0=in my h3ad
 nullmArtist=the voices
-tAS=\s[\x2022]\s
+tAS=\s•\s
 
 25.12=merry christmas!
 1.1=happy new year!
 31.12=new year's eve
+6.12=PE
+11.12=DS
+13.12=SE
+[#edit]=[#[#edit]]
